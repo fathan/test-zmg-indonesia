@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px){
+	.ipapa-home{
+		&__information-detail{
+			.box-title-top{
+				text-align: center;
+			}
+
+			.box-logo{
+				ul{
+					padding-left: 15em;
+				}
+			}
+		}
+		
+		&__mobile-info{
+			margin-bottom: 3em;
+		}
+	}
+}

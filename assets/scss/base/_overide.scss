@@ -1,0 +1,80 @@
+// OVERIDE BUTTON
+.btn{
+	border-radius: 3px;
+	border: 0px solid transparent;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	font-family: $stack-muli;
+	font-weight: 300;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: $red-1;
+  border-color: $red-2;
+}
+
+.btn-warning{
+	color: #fff;
+  background-color: $black;
+  border-color: $black;
+}
+
+// FORM
+.form-control{
+	border-radius: 0px;
+	margin-bottom: 10px;
+  background: none;
+  letter-spacing: .2429rem;
+  border-radius: 0;
+  color: #55565b;
+  font-weight: 500;
+  height: 40px;
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 12px;
+
+  &:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #555;
+  }
+}
+
+// BUTTON
+/* -- Main style ------------------------------------ */
+.btn {
+  font-family: $stack-muli;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: inherit;
+}
+
+.btn-default, .btn-link {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+/* -- Buttons style ------------------------------------ */
+.btn {
+  outline: 0;
+  outline-offset: 0;
+  border: 0;
+  border-radius: 2px;
+
+  transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -webkit-transition: all .15s ease-in-out;
+
+  &:focus, &:active, &.active, &:active:focus, &.active:focus {
+    outline: 0;
+    outline-offset: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}

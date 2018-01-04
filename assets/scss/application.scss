@@ -1,0 +1,20 @@
+/*--------------------------------------------------
+ Company    : PT. ZMG INDONESIA - IPAPA.CO.ID
+ Document   : SCSS Main Global
+ Date 			: 4 JANUARI 2018
+ Author     : Fathan Rohman, S.T - http://fathan.github.io
+ --------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+
+@import url('https://rawgit.com/lykmapipo/themify-icons/master/css/themify-icons.css');
+@import url('https://rawgit.com/cristijora/vue-form-wizard/master/dist/vue-form-wizard.min.css');
+// ========================================================
+// Global Imports
+// ========================================================
+@import "plugin/index";
+@import "base/index";
+@import "layout/index";
+@import "components/index";
+@import "responsive/index";

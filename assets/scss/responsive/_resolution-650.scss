@@ -1,0 +1,25 @@
+@media screen and (max-width: 650px) {
+	.ipapa-home{
+		&__information-detail{
+			.box-title-top{
+				.title{
+					font-size: 2em;
+				}
+			}
+
+			.box-info-tree{
+				.rounded{
+					float: none;
+			    margin: auto;
+			    margin-bottom: 30px;
+				}
+			}
+
+			.box-logo{
+				ul{
+					padding-left: 30px;
+				}
+			}
+		}
+	}
+}

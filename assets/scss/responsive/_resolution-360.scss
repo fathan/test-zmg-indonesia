@@ -1,0 +1,29 @@
+@media screen and (max-width: 360px) {
+	.ipapa-home{
+		&__information-detail{
+			.box-title-top{
+				.sub-title{
+					#typed-ipapa{
+						font-size: 14px;
+					}
+				}
+			}
+
+			.box-logo{
+				ul{
+					padding-left: 60px;
+
+					li{
+						img{
+							width: 60px;
+
+							&.first{
+								width: 100px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
